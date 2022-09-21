@@ -1,0 +1,14 @@
+{
+  "Test1": {
+    "Testname": "loginTest",
+    "Execute": "Yes",
+    "Username": "shubh",
+    "Password": "MXFhekBXU1g="
+  },
+  "Test2": {
+    "Testname": "loginTest",
+    "Execute": "No",
+    "Username": "qazwsx4",
+    "Password": "MXFhekBXU1g="
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "Login Test Invalid Scenario 1 - Blank Values": {
+    "Testname": "invalidLoginTest",
+    "Execute": "Yes",
+    "Username": "",
+    "Password": ""
+  },
+  "Login Test Invalid Scenario 2 - Blank Username": {
+    "Testname": "invalidLoginTest",
+    "Execute": "Yes",
+    "Username": "",
+    "Password": "MXFhekBXU1g="
+  },
+  "Login Test Invalid Scenario 3 - Blank Password": {
+    "Testname": "invalidLoginTest",
+    "Execute": "Yes",
+    "Username": "",
+    "Password": "MXFhekBXU1g="
+  },
+  "Login Test Invalid Scenario 2 - Non-existing account": {
+    "Testname": "invalidLoginTest",
+    "Execute": "Yes",
+    "Username": "3243546#$#@",
+    "Password": "MXFhekBXU1g="
+  },
+  "Login Test Valid Scenario 1 - With Username and Password": {
+    "Testname": "validLoginTest",
+    "Execute": "Yes",
+    "Username": "abcd102",
+    "Password": "TVhGaGVrQlhVMWc9"
+  },
+  "Login Test Valid Scenario 2 - With Email and Password": {
+    "Testname": "validLoginTest",
+    "Execute": "Yes",
+    "Username": "qazwsx6@sharklasers.com",
+    "Password": "MXFhekBXU1g="
+  },
+  "Login Test Scenario 3 - Clicking on Privacy Policy Link": {
+    "Testname": "privacyPolicyLinkTest",
+    "Execute": "Yes"
+  },
+  "Login Test Scenario 4 - Clicking on Terms of User Link": {
+    "Testname": "termsOfUseLinkTest",
+    "Execute": "Yes"
+  },
+  "Register User 1 - Existing username and Email": {
+    "Testname": "registerExistingUsernameEmailTest",
+    "Execute": "Yes",
+    "Email": "qazwsx2@sharklasers.com",
+    "Username": "qazwsx2",
+    "MM": "December"
+  },
+  "Register User 2 - Attempt with no Data": {
+    "Testname": "registerBlankDataTest",
+    "Execute": "Yes"
+  },
+  "Register User 3 - Attempt without selecting TnC and Privacy Policy checkbox": {
+    "Testname": "registerWoTermsPrivacyTest",
+    "Execute": "Yes",
+    "Email": "abcd101@sharklasers.com",
+    "Username": "abcd101",
+    "Password": "MXFhekBXU1g=",
+    "CPassword": "MXFhekBXU1g=",
+    "MM": "February",
+    "DD": "03",
+    "YY": "4"
+  },
+  "Register User 4 - Attempt with user less than 13 years old": {
+    "Testname": "registerInvalidBdayTest",
+    "Execute": "Yes",
+    "Email": "abcd101@sharklasers.com",
+    "Username": "abcd101",
+    "Password": "MXFhekBXU1g=",
+    "CPassword": "MXFhekBXU1g=",
+    "MM": "December",
+    "DD": "31",
+    "YY": "2008"
+  },
+  "Register User 5 - Click Sub-links on Register page": {
+    "Testname": "registerSubLinksTest",
+    "Execute": "Yes"
+  },
+  "Register User 6 - E2E Positive": {
+    "Testname": "registerE2ETest",
+    "Execute": "Yes",
+    "Email": "abcd104@sharklasers.com",
+    "Username": "abcd104",
+    "Password": "MXFhekBXU1g=",
+    "CPassword": "MXFhekBXU1g=",
+    "MM": "December",
+    "DD": "31",
+    "YY": "2005",
+    "Value": "Atlantic/Cape_Verde",
+    "SecQuestion1": "5",
+    "SecQuestion2": "6",
+    "SecQuestion3": "7",
+    "SecAnswer1": "answer1",
+    "SecAnswer2": "answer2",
+    "SecAnswer3": "answer3"
+  },
+  "Register User 7 - Non-matching passwords and confirm passwords": {
+    "Testname": "registerNonMatchingPwdTest",
+    "Execute": "Yes",
+    "Email": "abcd110@sharklasers.com",
+    "Username": "abcd110",
+    "Password": "MXFhekBXU1g=",
+    "CPassword": "MXFhekBXU1",
+    "MM": "December",
+    "DD": "31",
+    "YY": "2005",
+    "SecQuestion1": "5",
+    "SecQuestion2": "6",
+    "SecQuestion3": "7",
+    "SecAnswer1": "answer1",
+    "SecAnswer2": "answer2",
+    "SecAnswer3": "answer3"
+  },
+  "Register User 8 - Blank DOB with all valid values in all other fields": {
+    "Testname": "registerBlankDOBTest",
+    "Execute": "Yes",
+    "Email": "abcd110@sharklasers.com",
+    "Username": "abcd110",
+    "Password": "MXFhekBXU1g=",
+    "CPassword": "MXFhekBXU1"
+  },
+  "Test0": {
+    "Testname": "validatePageTitle",
+    "Execute": "No",
+    "Title": "UMG Gaming - Tournaments, Ladders, Live/On-Demand Esports Competitions, and More!"
+  },
+  "Test2": {
+    "Testname": "loginTest",
+    "Execute": "no",
+    "Username": "qazwsx4",
+    "Password": "MXFhekBXU1g="
+  },
+  "Test3": {
+    "Testname": "createMatchTest",
+    "Execute": "No",
+    "Username": "qazwsx5",
+    "Password": "MXFhekBXU1g=",
+    "GameKeyword": "FIFA 20",
+    "TeamName": "AutoTest4",
+    "Region": "Global",
+    "Platform": "xbox"
+  },
+  "Test4": {
+    "Testname": "createMatchTest",
+    "Execute": "no",
+    "Username": "qazwsx5",
+    "Password": "MXFhekBXU1g=",
+    "GameKeyword": "Fifa 19",
+    "TeamName": "AutoTest5",
+    "Region": "Global",
+    "Platform": "xbox"
+  },
+  "Test5": {
+    "Testname": "createTeamTest",
+    "Execute": "No",
+    "Username": "qazwsx5",
+    "Password": "MXFhekBXU1g=",
+    "GameKeyword": "NBA 2K21",
+    "TeamName": "AutoTest6",
+    "Region": "Global",
+    "Platform": "ps4",
+    "Ladder": "Team"
+  }
+}
